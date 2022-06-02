@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main">
+        <div id="navbar">
+            <div id="nav-logo">
+                <a href="#" id ="logo-container"><img src="/svg/all-inclusive-box-outline.svg" alt="logo" id="logo-img"><span>Infiniboard</span></a>
+            </div>
+            <div id="nav-main-links">
+                <a href="#"><img src="/svg/home-variant-outline.svg" alt="home"> Home </a>
+                <a href="#"><img src="/svg/account-box-multiple-outline.svg" alt="profile"> Profile </a>
+                <a href="#"><img src="/svg/message-reply-outline.svg" alt="messages"> Messages </a>
+                <a href="#"><img src="/svg/clock-time-three-outline.svg" alt="clock"> History </a>
+                <a href="#"><img src="/svg/note-multiple-outline.svg" alt="notes"> Tasks </a>
+                <a href="#"><img src="/svg/account-group-outline.svg" alt="people"> Communities </a>
+            </div>
+            <div></div>
+            <div id="nav-support-links">
+                <a href="#"><img src="/svg/cog-outline.svg" alt="gear"> Settings </a>
+                <a href="#"><img src="/svg/comment-question-outline.svg" alt="question mark"> Support </a>
+                <a href="#"><img src="/svg/shield-check-outline.svg" alt="shield"> Privacy </a>
+            </div>
+        </div>
+        <div id="right-panel">
+            <div id = "topbar">
+                <div id="search-profile">
+                    <div id = "search-container">
+                        <a href="#"><img src="/svg/magnify.svg" alt="magnifying glass"></a>
+                        <input type="text" id ="search" placeholder="Search...">
+                    </div>
+                    <div id = "notifications-profile-container">
+                        <div></div>
+                        <a href="#"><img src="/svg/bell-ring-outline.svg" alt="bell"></a>
+                        <a href="#"><img src="/img/gamer.png" alt="gamer" class = "small-avatar"></a>
+                        <a href="#"><span class="username">Dustin Morgan</span></a>
+                    </div>
+                </div>
+                <div id="profile-actions">
+                    <div id="top-bar-greeting">
+                        <a href="#" id="large-avatar-wrapper"><img src="/img/gamer.png" id="large-avatar"></a>
+                        <div id = "greeting">
+                            <span>Hey there,</span>
+                            <span class="username">Dustin Morgan (@DMo)</span>
+                        </div>
+                    </div>
+                    <div id="top-bar-actions">
+                        <button class="top-bar-btn">New</button>
+                        <button class="top-bar-btn">Upload</button>
+                        <button class="top-bar-btn">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div id = "content">
+                <div id ="card-container">
+                    <div class = "section-header">Your Projects</div>
+                    <div class="card">
+                        <span class="card-title">17 Buffalos Project</span>
+                        <span class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor, augue vel cursus feugiat, mi neque viverra dolor, nec tristique quam arcu quis tellus. Mauris a eros nec turpis imperdiet vestibulum ac sed sem.</span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-title">Early Grey LLC</span>
+                        <span class="card-description"> Donec tempor enim ac libero aliquam, a molestie diam sollicitudin. Etiam finibus lacus ac vulputate rutrum. Vestibulum mollis, tortor sed bibendum cursus, tortor nisl imperdiet est, quis imperdiet elit turpis non urna.Donec tempor enim ac libero aliquam, a molestie diam sollicitudin. Etiam finibus lacus ac vulputate rutrum. Vestibulum mollis, tortor sed bibendum cursus, tortor nisl imperdiet est, quis imperdiet elit turpis non urna. Donec tempor enim ac libero.</span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-title">Spaghetti Sunday</span>
+                        <span class="card-description">Ut quis leo lobortis neque vestibulum tempor. Vivamus gravida mollis dignissim. Sed quam odio, condimentum nec sem et, malesuada rutrum mi. Pellentesque eleifend viverra dolor, vel elementum sem porttitor vitae. </span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-title">Oval House</span>
+                        <span class="card-description">Morbi sed aliquet dolor. Mauris finibus nulla et vulputate fermentum. Aenean vehicula urna sit amet sollicitudin egestas. Etiam hendrerit molestie massa, nec congue arcu posuere nec.</span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-title">BHU Gold</span>
+                        <span class="card-description">Nunc maximus mauris pretium elit semper, auctor fringilla turpis tempor. Mauris pellentesque quis lorem sed cursus. Aenean venenatis faucibus nibh ac consectetur.</span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="card-title">PFS International</span>
+                        <span class="card-description">Praesent eu velit sed tortor vehicula ultrices tincidunt a felis. In in eros vel ligula tristique dictum. Proin tortor magna, maximus quis velit ut, laoreet blandit purus. Praesent non velit maximus, facilisis risus vitae, consectetur tellus. Etiam cursus nec metus sed dapibus.</span>
+                        <div class="card-actions">
+                            <div></div>
+                            <a href="#"><img src = "/svg/star-plus-outline.svg" alt="star"/></a>
+                            <a href="#"><img src = "/svg/eye-plus-outline.svg" alt="eye"/></a>
+                            <a href="#"><img src = "/svg/source-branch.svg" alt="source branch" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div id = "cta-container">
+                    <div class="section-header">Accouncements</div>
+                    <div class="cta" id = "announcements">
+                        <div class="cta-announcement">
+                            <div class="announcement-title">Site Maintenance</div>
+                            <div class="announcement-body">Tomorrow site maintenance will be performed from 10am - 12pm CST.</div>
+                        </div>
+                        <hr>
+                        <div class="cta-announcement">
+                            <div class="announcement-title">Community Day</div>
+                            <div class="announcement-body">Community Day is one of our favorite days of the year! Join us August 1st at 10am CST.</div>
+                        </div>
+                        <hr>
+                        <div class="cta-announcement">
+                            <div class="announcement-title">Update Privacy Policy</div>
+                            <div class="announcement-body">We've updated our privacy policy to let you know we're taking every bit of your personal information humanly possible.</div>
+                        </div>
+                    </div>
+                    <div class="section-header">Trending</div>
+                    <div class="cta" id = "trending">
+                        <div class="trending-container">
+                            <div class="trending-img">
+                                <a href="#"><img src="/img/girl.png" alt="girl" class = "small-avatar"></a>
+                            </div>
+                            <div class="name-tag-container">
+                                <div class="trending-name">@SandraLaw</div>
+                                <div class="trending-tag">Making things happen.</div>
+                            </div>
+                        </div>
+                        <div class="trending-container">
+                            <div class="trending-img">
+                                <a href="#"><img src="/img/pirate.png" alt="pirate" class = "small-avatar"></a>
+                            </div>
+                            <div class="name-tag-container">
+                                <div class="trending-name">@Pirate Steve</div>
+                                <div class="trending-tag">Gyarr...? 😔</div>
+                            </div>
+                        </div>
+                        <div class="trending-container">
+                            <div class="trending-img">
+                                <a href="#"><img src="/img/wizard.png" alt="wizard" class = "small-avatar"></a>
+                            </div>
+                            <div class="name-tag-container">
+                                <div class="trending-name">@Grantdolf</div>
+                                <div class="trending-tag">Magic is what you make it.</div>
+                            </div>
+                        </div>
+                        <div class="trending-container">
+                            <div class="trending-img">
+                                <a href="#"><img src="/img/woman.png" alt="woman" class = "small-avatar"></a>
+                            </div>
+                            <div class="name-tag-container">
+                                <div class="trending-name">@WholesomeHolly</div>
+                                <div class="trending-tag">Cute pups and pickup trucks.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
